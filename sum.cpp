@@ -9,7 +9,7 @@ int s(int arr[], int n, int index)
     }
     else
     {
-        return arr[index] + s(arr, n - 1, index + 1);
+        return arr[index] + s(arr, n-1, index + 1);
     }
 }
 
